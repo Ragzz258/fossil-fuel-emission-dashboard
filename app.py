@@ -14,7 +14,7 @@ d = list(set(df['Year']))
 
 app.layout = html.Div([
 
-    html.H1("Climate change dashboard", style={'text-align': 'center'}),
+    html.H1("Fossil Fuel Emission Dashboard", style={'text-align': 'center'}),
 
     dcc.Dropdown(id = "slct_year",
                  options = d,
